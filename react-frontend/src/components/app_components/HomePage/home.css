@@ -1,0 +1,57 @@
+.navbar-link {
+    color: white !important; /* Override any other color styles */
+    text-decoration: none; /* Optional: Remove underline if needed */
+}
+.navbar-link:hover {
+    color: blue; /* Optional: Set hover color */
+}
+.bg-blue-900 {
+    margin-bottom: 0; /* Ensure no space below navbar */
+  }
+  .bg-gray-800 {
+    margin-top: 0; /* Ensure no space above slider */
+  }
+  body {
+    margin: 0; /* Remove default body margin */
+  }
+  #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
